@@ -1,0 +1,74 @@
+@media (max-width: 600px){
+  
+  .header{
+    padding-top: 20px;
+  }
+  .hero__subtitle{
+    margin-top: 40px;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+  }
+  .nav__link{
+    margin-bottom: 10px;
+  }
+  .header__logo {
+    margin-right: 0px;
+  }
+  .episods__tittle{
+    
+    text-align: center;
+  }
+  .hero__description{
+    text-align: left;
+  }
+  .slider__item{
+    margin: auto;
+  }
+  .owl-nav{
+    margin-top: 16px;
+    display: block;
+   text-align: left;
+  }
+  
+}
+@media (max-width: 992px){
+  body {
+    background: #070506 url("/img/adaptive-bg.png") top right 26% no-repeat;
+
+  }
+  .hero__subtitle{
+    font-size: 24px;
+  }
+  .hero__title{
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .hero__description{
+    font-size: 16px;
+  }
+  .header{
+  
+    display: inline;
+    padding-top: 27px;
+  }
+  .header__logo{
+    margin-bottom: 30px;
+  }
+  .hero, .episods__tittle, .owl-nav{
+    text-align: center;
+  }
+  .hero__description, .hero__title, .hero__subtitle{
+    text-align: left;
+  }
+  .slider__item{
+    margin: auto;
+  }
+  .owl-nav{
+    margin-top: 16px;
+  }
+  
+}
